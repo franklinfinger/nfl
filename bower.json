@@ -1,0 +1,23 @@
+{
+  "name": "nfl",
+  "homepage": "https://github.com/franklinfinger/nfl",
+  "authors": [
+    "Frank Finger <franklinfinger@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.2",
+    "underscore": "^1.8.3",
+    "angular": "^1.5.2"
+  }
+}
