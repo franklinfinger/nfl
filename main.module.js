@@ -14,4 +14,24 @@ angular
         templateUrl: "templates/gun-crime.html",
         controller: 'GunArrestController'
       })
+      .when('/drug-crime', {
+        templateUrl: "templates/drug-crime.html",
+        controller: 'DrugsArrestController'
+      })
+      .when('/sex-crime', {
+        templateUrl: "templates/sex-crime.html",
+        controller: 'SexArrestController'
+      })
+      .when('/pimping-crime', {
+        templateUrl: "templates/pimping-crime.html",
+        controller: "PimpingArrestController"
+      })
+      .when('/parking-crime', {
+        templateUrl: "templates/parking-crime.html",
+        controller: "ParkingArrestController"
+      })
+      .when('/Drunk-crime', {
+        templateUrl: "templates/Drunk-crime.html",
+        controller: "DrunkArrestController"
+      })
     })

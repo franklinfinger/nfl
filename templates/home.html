@@ -1,9 +1,18 @@
 <div class="jumbotron">
     <h1>NFL Arrest Report</h1>
-    <h6>Note: this is weather in angular</h6>
+    <img src="http://nflarrest.com/sidebar.png" />
     <p>
-      Date, Team, Name, Encounter, Description, Outcome
+      Choose one of the Following
     </p>
-    <p><a class="btn btn-success btn-lg" href="/#/dui-crime" role="button">NFL Crime</a></p>
-    <p><a class="btn btn-danger btn-lg" href="#" role="button">Wrong Entry</a></p>
+    <ul>
+      <li>DUI</li>
+      <li>Gun</li>
+      <li>drug</li>
+      <li>Sex</li>
+      <li>Public intoxication</li>
+      <li>Handicap parking</li>
+      <li>Pimping</li>
+    </ul>
+    <input type="text" ng-model="crime" placeholder="Enter crime">
+    <button class='btn btn-lg btn-success' ng-click="getArrestCtrl(crime)" name="button">Get Arrest Report</button>
   </div>
